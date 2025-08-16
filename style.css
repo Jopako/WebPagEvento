@@ -5,11 +5,23 @@
 
         font-family: "Google Sans Code", monospace;
         color: black;
-        text-align: start;
         font-size: 2em;
-        margin-left: 1em;
+       
+      
     
     }
+
+    .cabecalho2
+    {
+        font-family: "Google Sans Code", monospace;
+        color: black;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-align: right;
+        margin: auto;
+        display: block;
+    }
+
     .sobre
     {
         font-family: "Google Sans Code", monospace;
@@ -65,12 +77,11 @@
         background: #605F5D;
         border: 0.20em solid black;
         display: flex;          
-        justify-content: space-around;
-        align-items: center;
         height: 5em;
         width: 80em;
         margin: auto auto;
         margin-top: 0em;
+        padding-left: 1em;
     }
 
     h3
@@ -81,6 +92,12 @@
         font-size: 1.2em;
         margin-top: 0.5em;
     }
-
+    img
+    {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
     
 
